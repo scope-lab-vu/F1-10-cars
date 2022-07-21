@@ -43,10 +43,10 @@ source install/setup.bash
 # Controlling the Car
 The car can be controlled manually using a joystick or autonomously using conventional and machine learning controllers.
 
-1. [Teleoperation using Joystick](https://github.com/scope-lab-vu/F1-10-cars/edit/main/README.md#Teleoperatin with Joystick)
+1. [Teleoperation using Joystick](https://github.com/scope-lab-vu/F1-10-cars/edit/main/README.md#Teleoperation-with-Joystick)
 
 
-# Teleoperatin with Joystick
+# Teleoperation with Joystick
 
 
 
