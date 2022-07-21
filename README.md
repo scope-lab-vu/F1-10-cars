@@ -44,9 +44,34 @@ source install/setup.bash
 The car can be controlled manually using a joystick or autonomously using conventional and machine learning controllers.
 
 1. [Teleoperation using Joystick](#Teleoperation-with-Joystick)
+2. [Disparity Extender](#Disparity-Extender)
+3. [Pure Pursuit](#Pure-Pursuit)
+4. [Computer Vision](#Computer-Vision)
 
 
 # Teleoperation with Joystick
+The hardaware testbed can be controlled with a joystick. You can follow these commands to manually control the car
+
+step 1 - Open a terminal on your computer and [SSH]() into the car from your computer. Once you are in, run [tmux]() to spawn new terminal sessions over the same SSH connection.
+
+step 2 - In the tmux session, spawn a new window using "Ctrl + A". Then, in the window run ```roscore``` to start ros
+
+step 3 - In the other free terminal, navigate to the working directory and run ```catkin make```. Then, run source install/setup.bash to source the directory.
+
+step 4 - Then, place the car on the ground and run the following command in the terminal
+
+```
+roslaunch racecar teleop.launch
+```
+Press the center button on the joystick to control the car. Hold the LB button on the joystick to start controlling the car. Use the left joystick to move the car forward and backward and the right joystick for steering the car. ***Remember*** Always have a hold of the LB button; otherwise the car will stop. 
+
+If there is a problem in using the joystick, look at the f1/10 manual [here]()
+
+# Disparity Extender Algorithm
+
+# Pure Pursuit Algorithm
+
+# Computer Vision
 
 
 
