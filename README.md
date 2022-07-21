@@ -1,7 +1,8 @@
-# F1-10-cars
+# Experiments with F1-10 cars
 
-#Introduction
-This repository includes the controllers working with the f1/10 simulator and the physical car. The code here is cloned from [patricks f1/10 repo](https://github.com/pmusau17/Platooning-F1Tenth). Kindly refer to his repository if new controllers are required for the cars. 
+# Introduction
+ 
+ This repository includes the controllers working with the f1/10 simulator and the physical car. The code here is cloned from [patricks f1/10 repo](https://github.com/pmusau17/Platooning-F1Tenth). Kindly refer to his repository if new controllers are required for the cars. 
 
 
 # F1-10 Simulator Build and Run
