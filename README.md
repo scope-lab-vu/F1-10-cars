@@ -52,7 +52,7 @@ The car can be controlled manually using a joystick or autonomously using conven
 # Teleoperation with Joystick
 The hardaware testbed can be controlled with a joystick. You can follow these commands to manually control the car
 
-step 1 - Open a terminal on your computer and [SSH]() into the car from your computer. Once you are in, run [tmux]() to spawn new terminal sessions over the same SSH connection.
+step 1 - Open a terminal on your computer and [SSH](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/ssh-car.pdf) into the car from your computer. Once you are in, run [tmux](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/ssh-car.pdf) to spawn new terminal sessions over the same SSH connection.
 
 step 2 - In the tmux session, spawn a new window using "Ctrl + A". Then, in the window run ```roscore``` to start ros
 
@@ -65,7 +65,7 @@ roslaunch racecar teleop.launch
 ```
 Press the center button on the joystick to control the car. Hold the LB button on the joystick to start controlling the car. Use the left joystick to move the car forward and backward and the right joystick for steering the car. ***Remember*** Always have a hold of the LB button; otherwise the car will stop. 
 
-If there is a problem in using the joystick, look at the f1/10 manual [here](https://github.com/scope-lab-vu/F1-10-cars/blob/main/BuildV2.pdf)
+If there is a problem in using the joystick, look at the f1/10 manual [here](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/BuildV2.pdf)
 
 # Disparity Extender Algorithm
 
