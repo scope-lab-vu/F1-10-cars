@@ -45,8 +45,8 @@ source install/setup.bash
 The car can be controlled manually using a joystick or autonomously using conventional and machine learning controllers.
 
 1. [Teleoperation using Joystick](#Teleoperation-with-Joystick)
-2. [Disparity Extender](#Disparity-Extender)
-3. [Pure Pursuit](#Pure-Pursuit)
+2. [Disparity Extender](#Disparity-Extender-Algorithm)
+3. [Pure Pursuit](#Pure-Pursuit-Algorithm)
 4. [Computer Vision](#Computer-Vision)
 
 
