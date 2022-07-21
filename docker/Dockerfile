@@ -43,7 +43,7 @@ RUN pip install -e .
 WORKDIR ..
 
 
-RUN git clone https://https://github.com/scope-lab-vu/F1-10-cars
+RUN git clone https://github.com/scope-lab-vu/F1-10-cars
 WORKDIR F1-10-cars
 
 RUN git pull && apt-get update && rosdep install --from-paths src --ignore-src -r -y --rosdistro noetic

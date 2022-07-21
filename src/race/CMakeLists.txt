@@ -100,50 +100,8 @@ install(TARGETS
 
 ### Install python nodes
 install(PROGRAMS 
-scripts/ttc.py scripts/analyze_odom.py
-scripts/collect_lidar_classification_data.py
-scripts/collision_logger.py
-scripts/collision_tracker.py
-scripts/compute_progress.py
-scripts/compute_safety_percentage.py
-scripts/decision_manager.py
 scripts/disparity_extender_vanderbilt_gen.py
-scripts/disparity_extender_vanderbilt.py
 scripts/follow_lead_gen.py
-scripts/follow_lead.py
-scripts/gen_map.py
-scripts/gen_sysid_data.py
-scripts/get_obstacles.py
-scripts/independent_sub.py
-scripts/keyboard_gen.py
-scripts/keyboard.py
-scripts/laser_converter.py
-scripts/lidar_classification_node.py
-scripts/message_to_tf_gen.py
-scripts/message_to_tf.py
-scripts/pfc.py
-scripts/plot_reachability_results_multiple.py
-scripts/plot_reachability_results.py
-scripts/potential_field_controller.py
-scripts/process_and_plot_lidar_data.py
-scripts/process_dynamic_obstacles.py
-scripts/reset_world.py
-scripts/rtreach_decision_manager.py
-scripts/safety_controller1.py
-scripts/safety_controller.py
-scripts/safety_node.py
-scripts/save_grid.py
-scripts/sim_connector_gen.py
-scripts/sim_connector.py
-scripts/speed_node.py
-scripts/transform_obstacles.py
-scripts/ttc.py
-scripts/visualize_wall_markers.py
-scripts/wall_follower.py
-scripts/lidar_to_cartesian.py
-scripts/disparity_extender_ftg.py
-scripts/dynamic_box_oscillation.py
-scripts/send_initial_pose.py
 DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
@@ -154,7 +112,6 @@ install(DIRECTORY
         cfg
         logs
         maps
-        models
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
   
