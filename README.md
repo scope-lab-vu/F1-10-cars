@@ -65,7 +65,7 @@ roslaunch racecar teleop.launch
 ```
 Press the center button on the joystick to control the car. Hold the LB button on the joystick to start controlling the car. Use the left joystick to move the car forward and backward and the right joystick for steering the car. ***Remember*** Always have a hold of the LB button; otherwise the car will stop. 
 
-If there is a problem in using the joystick, look at the f1/10 manual [here]()
+If there is a problem in using the joystick, look at the f1/10 manual [here](https://github.com/scope-lab-vu/F1-10-cars/blob/main/BuildV2.pdf)
 
 # Disparity Extender Algorithm
 
