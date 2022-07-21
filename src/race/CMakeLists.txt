@@ -110,7 +110,6 @@ install(DIRECTORY
         launch
         rviz
         cfg
-        logs
         maps
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
