@@ -6,6 +6,7 @@
 
 
 # F1-10 Simulator Build and Run
+
 The f1/10 car comes with a [Gazebo](https://gazebosim.org/) based simulator. We run the simulation in docker. The dockerfile for setting up the docker can be found [here](https://github.com/scope-lab-vu/F1-10-cars/tree/main/docker). To install the docker follow the steps discussed below:
 
 Step 1 - Install the suitable [NVIDIA-Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) for your GPU configuration and operating system. The docker is required to run any Machine Learning/Deep Learning based controllers.
@@ -50,6 +51,7 @@ The car can be controlled manually using a joystick or autonomously using conven
 
 
 # Teleoperation with Joystick
+
 The hardaware testbed can be controlled with a joystick. You can follow these commands to manually control the car
 
 step 1 - Open a terminal on your computer and [SSH](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/ssh-car.pdf) into the car from your computer. Once you are in, run [tmux](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/ssh-car.pdf) to spawn new terminal sessions over the same SSH connection.
@@ -68,6 +70,15 @@ Press the center button on the joystick to control the car. Hold the LB button o
 If there is a problem in using the joystick, look at the f1/10 manual [here](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/BuildV2.pdf)
 
 # Disparity Extender Algorithm
+
+The disparity extender algorithm was developed at UNC-Chapel Hill. This algorithm was used as the controller for the f1/10 autonomous driving competition in 2019. This controller won the race ultimately. Please read this [blog](https://www.nathanotterness.com/2019/04/the-disparity-extender-algorithm-and.html) from Nathan Otterness et al. to get a complete understanding of the algorithm.
+
+To run this controller in the simulator, run the following commands in two terminals:
+
+```
+roslaunch race multi_parametrizeable.launch
+roslaunch race multicar_disparity_extender.launch
+```
 
 # Pure Pursuit Algorithm
 
