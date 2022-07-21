@@ -6,7 +6,7 @@
 
 
 # F1-10 Simulator Build and Run
-The f1/10 car comes with a [Gazebo](https://gazebosim.org/) based simulator. We run the simulation in docker. To install the docker follow the steps discussed below:
+The f1/10 car comes with a [Gazebo](https://gazebosim.org/) based simulator. We run the simulation in docker. The dockerfile for setting up the docker can be found [here](https://github.com/scope-lab-vu/F1-10-cars/tree/main/docker). To install the docker follow the steps discussed below:
 
 Step 1 - Install the suitable [NVIDIA-Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) for your GPU configuration and operating system. The docker is required to run any Machine Learning/Deep Learning based controllers.
 
@@ -39,6 +39,17 @@ Step5 - Source the ROS packages to run ROS in the docker
 ```
 source install/setup.bash
 ```
+
+# Controlling the Car
+The car can be controlled manually using a joystick or autonomously using conventional and machine learning controllers.
+
+1. [Teleoperation using Joystick](https://github.com/scope-lab-vu/F1-10-cars/edit/main/README.md#Teleoperatin with Joystick)
+
+
+# Teleoperatin with Joystick
+
+
+
 
 
 
