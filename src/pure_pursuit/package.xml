@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pure_pursuit</name>
+  <version>0.0.0</version>
+  <description>The pure_pursuit package</description>
+
+
+  <!-- Maintainer -->
+  <maintainer email="patrick.musau@vanderbilt.edu">Patrick Musau</maintainer>
+
+
+  <!-- License -->
+  <license>MIT</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  
+
+</package>

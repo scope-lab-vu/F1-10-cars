@@ -43,8 +43,8 @@ RUN pip install -e .
 WORKDIR ..
 
 
-RUN git clone https://github.com/pmusau17/Platooning-F1Tenth
-WORKDIR Platooning-F1Tenth 
+RUN git clone https://https://github.com/scope-lab-vu/F1-10-cars
+WORKDIR F1-10-cars
 
 RUN git pull && apt-get update && rosdep install --from-paths src --ignore-src -r -y --rosdistro noetic
 RUN /bin/bash -c "apt install -y python3-colcon-common-extensions ros-noetic-ackermann-msgs && source /opt/ros/noetic/setup.bash &&  colcon build"

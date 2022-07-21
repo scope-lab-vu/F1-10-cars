@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>racecar_gazebo</name>
+  <version>0.0.0</version>
+  <description>The racecar_gazebo package</description>
+
+  <maintainer email="patrick.musau@vadnderbilt.edu">Patrick Musau</maintainer>
+
+  <license>MIT</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>gazebo_ros</depend>
+  <depend>controller_manager</depend>
+  <depend>ros_controllers</depend>
+  <depend>ros_control</depend>
+  <depend>gazebo_ros_control</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/worlds" />
+     <gazebo_ros gazebo_media_path="${prefix}/worlds"/>
+  </export>
+</package>
