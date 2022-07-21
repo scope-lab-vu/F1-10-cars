@@ -7,9 +7,9 @@ This repository includes the controllers working with the f1/10 simulator and th
 # F1-10 Simulator Build and Run
 The f1/10 car comes with a [Gazebo](https://gazebosim.org/) based simulator. We run the simulation in docker. To install the docker follow the steps discussed below:
 
-Step 1 - Install the suitable [NVIDIA-Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) for your GPU configuration and operating system. The docker is required to run any Machine Learning/Deep Learning based controllers.//
+Step 1 - Install the suitable [NVIDIA-Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) for your GPU configuration and operating system. The docker is required to run any Machine Learning/Deep Learning based controllers.
 
-Step 2 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/) and [Docker-Compose](https://docs.docker.com/compose/install/) for the operating system on your machine.//
+Step 2 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/) and [Docker-Compose](https://docs.docker.com/compose/install/) for the operating system on your machine.
 
 Step3 - To build the dockerfile get into the path of this repo and run the following command
 
