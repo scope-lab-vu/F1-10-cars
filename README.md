@@ -75,14 +75,38 @@ The disparity extender algorithm was developed at UNC-Chapel Hill. This algorith
 
 To run this controller in the simulator, run the following commands in two terminals:
 
+Terminal 1:
+
 ```
 roslaunch race multi_parametrizeable.launch
+```
+Terminal 2: 
+
+```
 roslaunch race multicar_disparity_extender.launch
 ```
 
+Additional source to learn about the controller https://medium.com/@chardorn/running-an-f1tenth-car-like-a-real-racecar-f5da160d8573
+
 # Pure Pursuit Algorithm
+The pure pursuit algorithm was originally proposed by Craig Coulter. The algorithm can be found in his [original paper](https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf). Have a look at this [repo](https://vinesmsuic.github.io/2020/09/29/robotics-purepersuit/) to get a better understanding of the algorithm. 
+
+To run this controller in the simulator, run the following commands in two terminals:
+
+Terminal 1:
+
+```
+roslaunch race multi_parametrizeable.launch
+```
+Terminal 2: 
+
+```
+roslaunch race platoon.launch
+```
 
 # Computer Vision
+
+ToDo: Patrick has tested out a few end-to-end controllers. We can get to his [repo](https://github.com/pmusau17/Platooning-F1Tenth#ComputerVision) to get them running. 
 
 
 
