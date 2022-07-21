@@ -109,6 +109,13 @@ roslaunch race platoon.launch
 ToDo: Patrick has tested out a few end-to-end controllers. We can get to his [repo](https://github.com/pmusau17/Platooning-F1Tenth#ComputerVision) to get them running. 
 
 
+# References
+
+1. [Patricks Github Repo](https://github.com/pmusau17/Platooning-F1Tenth) - The base code for our work is taken from patrick. We can tune the algorithms and parameters as required
+
+2. [f1/10 Repo](https://f1tenth.org/) - The tutorials to build, learn and race the car can be found on the repo. The [build manual](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/BuildV2.pdf) is also required to debug problems. 
+
+
 
 
 
