@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mpc</name>
+  <version>0.0.0</version>
+  <description>mpc</description>
+  <maintainer email="patrick.musau@vanderbilt.edu">Patrick Musau</maintainer>
+  <license>MIT</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>race</depend>
+  <depend>ackermann_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <export>
+  </export>
+</package>
