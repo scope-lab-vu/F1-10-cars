@@ -41,6 +41,16 @@ Step5 - Source the ROS packages to run ROS in the docker
 source install/setup.bash
 ```
 
+**Note**:If you want to open a second window in the docker container, in the second window, use the command
+```
+docker ps
+```
+to get the docker container id, and then use
+```
+docker exec -it ${DOCKER_CONTAINER_ID} bash
+```
+to enter the container.
+
 # Controlling the Car
 The car can be controlled manually using a joystick or autonomously using conventional and machine learning controllers.
 
@@ -107,6 +117,26 @@ roslaunch race platoon.launch
 # Computer Vision
 
 ToDo: Patrick has tested out a few end-to-end controllers. We can get to his [repo](https://github.com/pmusau17/Platooning-F1Tenth#ComputerVision) to get them running. 
+
+# Rosbag and Data collection
+Run the command
+```
+rostopic list
+```
+To see currently running topics.
+
+To get data from a topic and store them in to a bag file, run:
+```
+rosbag record ${TOPIC_NAME_1} ${TOPIC_NAME_2} ...
+```
+to record data in those topic into a bag file.
+
+To decode the data from, for example, camera, look at the script src/decoder/decode.py. To decode, change the bag name in the script and then run it:
+```
+python3 decode.py
+```
+
+You can then get the images at the path specified.
 
 
 # References
