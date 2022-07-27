@@ -49,7 +49,11 @@
     <arg name="racecar2_pose" value="$(arg racecar2_pose)"/>
   </include>
 
-
+  <include file="$(find racecar_gazebo)/launch/my_single_car.launch" if = "$(eval arg('number_of_cars') ==1)" >
+    <arg name="world_name" value="$(arg world_name)"/>
+    <arg name="gui" value="$(arg gui)"/>
+    <arg name="racecar_pose" value="$(arg racecar_pose)"/>
+  </include>
   <!--Launch the nodes for the disparity extender NOTE: THESE NAMES SHOULD CORRESPOND TO THOSE LAUNCHED IN many_car.launch-->
 
  <!-- Run map server -->
