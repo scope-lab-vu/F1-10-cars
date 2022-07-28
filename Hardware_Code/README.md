@@ -41,7 +41,7 @@ Now, use "Ctrl + B" and W to move to the second free terminal. Then, run the fol
 Terminal 2: 
 
 ```
-roslaunch racecar disparity_extender.launch
+roslaunch racecar disparity.launch
 ```
 
 Additional source to learn about the controller https://medium.com/@chardorn/running-an-f1tenth-car-like-a-real-racecar-f5da160d8573
