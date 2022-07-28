@@ -98,18 +98,17 @@ roslaunch race platoon.launch
 ToDo: Patrick has tested out a few end-to-end controllers. We can get to his [repo](https://github.com/pmusau17/Platooning-F1Tenth#ComputerVision) to get them running. 
 
 # Rosbag and Data collection
-Run the command
+Run the foolowing command to get the list of topics
 
 ```
 rostopic list
 ```
-To see currently running topics.
 
-To get data from a topic and store them in to a bag file, run:
+To record data from a topic and store them in to a bag file, run:
+
 ```
 rosbag record ${TOPIC_NAME_1} ${TOPIC_NAME_2} ...
-```# Introduction
-to record data in those topic into a bag file.
+```
 
 To decode the data from, for example, camera, look at the script src/decoder/decode.py. To decode, change the bag name in the script and then run it:
 
