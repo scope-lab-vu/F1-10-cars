@@ -99,6 +99,7 @@ ToDo: Patrick has tested out a few end-to-end controllers. We can get to his [re
 
 # Rosbag and Data collection
 Run the command
+
 ```
 rostopic list
 ```
@@ -111,6 +112,7 @@ rosbag record ${TOPIC_NAME_1} ${TOPIC_NAME_2} ...
 to record data in those topic into a bag file.
 
 To decode the data from, for example, camera, look at the script src/decoder/decode.py. To decode, change the bag name in the script and then run it:
+
 ```
 python3 decode.py
 ```
@@ -139,6 +141,7 @@ step 4 - In the other free terminal (run "Ctrl + B" and w to move between termin
 ```
 roslaunch racecar teleop.launch
 ```
+
 Press the center button on the joystick to control the car. Hold the LB button on the joystick to start controlling the car. Use the left joystick to move the car forward and backward and the right joystick for steering the car. ***Remember*** Always have a hold of the LB button; otherwise the car will stop. 
 
 If there is a problem in using the joystick, look at the f1/10 manual [here](https://github.com/scope-lab-vu/F1-10-cars/blob/main/documents/BuildV2.pdf)
