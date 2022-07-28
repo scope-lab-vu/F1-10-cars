@@ -120,7 +120,7 @@ You can then get the images at the path specified.
 
 # Controlling the Physical Car
 
-Check the [Hardware_Code]() Folder.
+Check the [Hardware_Code](https://github.com/scope-lab-vu/F1-10-cars/tree/main/Hardware_Code) Folder.
 
 # References
 
