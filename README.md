@@ -107,7 +107,7 @@ To see currently running topics.
 To get data from a topic and store them in to a bag file, run:
 ```
 rosbag record ${TOPIC_NAME_1} ${TOPIC_NAME_2} ...
-```
+```# Introduction
 to record data in those topic into a bag file.
 
 To decode the data from, for example, camera, look at the script src/decoder/decode.py. To decode, change the bag name in the script and then run it:
@@ -147,17 +147,19 @@ If there is a problem in using the joystick, look at the f1/10 manual [here](htt
 
 The disparity extender algorithm was developed at UNC-Chapel Hill. This algorithm was used as the controller for the f1/10 autonomous driving competition in 2019. This controller won the race ultimately. Please read this [blog](https://www.nathanotterness.com/2019/04/the-disparity-extender-algorithm-and.html) from Nathan Otterness et al. to get a complete understanding of the algorithm.
 
-To run this controller in the simulator, run the following commands in two terminals:
+To run this controller in the simulator, ssh into the car and open a terminal. In the terminal type "tmux" to open a tmux session. In the terminal type in "Ctrl + B" and C to create two new terminals. In the first terminal run the following command:
 
 Terminal 1:
 
 ```
-roslaunch race multi_parametrizeable.launch
+roscore
 ```
+Now, use "Ctrl + B" and W to move to the second free terminal. Then, run the following command.
+
 Terminal 2: 
 
 ```
-roslaunch race multicar_disparity_extender.launch
+roslaunch racecar disparity_extender.launch
 ```
 
 Additional source to learn about the controller https://medium.com/@chardorn/running-an-f1tenth-car-like-a-real-racecar-f5da160d8573
