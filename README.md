@@ -59,7 +59,7 @@ The car can be controlled manually using a joystick or autonomously using conven
 3. [Computer Vision](#Computer-Vision)
 
 
-# Disparity Extender Algorithm
+***Disparity Extender Algorithm***
 
 The disparity extender algorithm was developed at UNC-Chapel Hill. This algorithm was used as the controller for the f1/10 autonomous driving competition in 2019. This controller won the race ultimately. Please read this [blog](https://www.nathanotterness.com/2019/04/the-disparity-extender-algorithm-and.html) from Nathan Otterness et al. to get a complete understanding of the algorithm.
 
