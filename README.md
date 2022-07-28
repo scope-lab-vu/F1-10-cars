@@ -1,8 +1,14 @@
 # Experiments with F1-10 cars
 
-# Introduction
- 
  This repository includes the controllers working with the f1/10 simulator and the physical car. The code here is cloned from [patricks f1/10 repo](https://github.com/pmusau17/Platooning-F1Tenth). Kindly refer to his repository if new controllers are required for the cars. 
+
+# Controlling the Car in simulation
+The car can be controlled manually using a joystick or autonomously using conventional and machine learning controllers.
+
+1. [Simulator Setup](#F1-10-Simulator-Build-and-Run)
+2. [Disparity Extender](#Disparity-Extender-Algorithm)
+3. [Pure Pursuit](#Pure-Pursuit-Algorithm)
+4. [Computer Vision](#Computer-Vision)
 
 
 # F1-10 Simulator Build and Run
@@ -50,13 +56,6 @@ to get the docker container id, and then use
 docker exec -it ${DOCKER_CONTAINER_ID} bash
 ```
 to enter the container.
-
-# Controlling the Car in simulation
-The car can be controlled manually using a joystick or autonomously using conventional and machine learning controllers.
-
-1. [Disparity Extender](#Disparity-Extender-Algorithm)
-2. [Pure Pursuit](#Pure-Pursuit-Algorithm)
-3. [Computer Vision](#Computer-Vision)
 
 
 # Disparity Extender Algorithm
